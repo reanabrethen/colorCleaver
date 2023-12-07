@@ -9,13 +9,17 @@ function isValidPrimary(color){
   return true
  } if(color === "blue"){
   return true
- } if(color === "orange"){
-  return false
- } if(color === "blorgon"){
-  return false
- }if(color === "ted"){
+ }else{
   return false
  }}
+
+// shorthand
+// // function isValidPrimary(color){
+//   if(color === "red" || color === "blue" || color === "yellow"){
+//     return true
+//     }else{
+//       return false
+//     } 
 
 // Our setup code here. Don't touch!
 if(typeof isValidPrimary === 'undefined') {

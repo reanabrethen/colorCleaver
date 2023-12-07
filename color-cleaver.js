@@ -9,18 +9,25 @@ const getInput = require("./get-input.js");
 let color1 = getInput(1)
 let color2 = getInput(2)
 
-if(color1 === undefined && color2 === undefined){
-console.log("There are 0 colors, we need at least one color")
+function whatIsThatColor(color1, color2){
+    if(color1 === undefined && color2 === undefined){
+        return "No colors were picked! You must select at least one!"
+    }if(color1 === col)
 }
 
-if(color1 === isValidPrimary(color1) && color2 === isValidPrimary(color2)){
-if(color1 !== isValidPrimary(color1) && color2 !== isValidPrimary(color2)){
- console.log("If you have " + color1 + "and "+ color2 +", you will get " + colorCombinator(color1))  
-  }}
 
-if(color1 === isValidSecondary(color1)){
-    console.log("This color was mixed with" + colorDeconstructor(color1) + colorDeconstructor(color2) + "to make" + color1)
-} 
+// if(color1 === undefined && color2 === undefined){
+// console.log("There are 0 colors, we need at least one color")
+// }
+
+// if(color1 === isValidPrimary(color1) && color2 === isValidPrimary(color2)){
+// if(color1 !== isValidPrimary(color1) && color2 !== isValidPrimary(color2)){
+//  console.log("If you have " + color1 + "and "+ color2 +", you will get " + colorCombinator(color1))  
+//   }}
+
+// if(color1 === isValidSecondary(color1)){
+//     console.log("This color was mixed with" + colorDeconstructor(color1) + colorDeconstructor(color2) + "to make" + color1)
+// } 
 
 
 
